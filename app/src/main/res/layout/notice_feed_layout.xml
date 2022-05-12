@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:src="@drawable/avatar"
+                android:id="@+id/noticeFeedImage"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rit_roorkee"
+                    android:textSize="18sp"
+                    android:textColor="@color/textColor"
+                    tools:ignore="RtlSymmetry" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: "
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                         android:id="@+id/date"
+                        android:text="15-August-2021"
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                         android:layout_marginStart="@dimen/text_margin"
+                        android:text="Time: "
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+
+                     <TextView
+                         android:id="@+id/time"
+                         android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:00PM"
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/text_margin"
+            android:textSize="16sp"
+            android:text="@string/this_view_will_show_the_title_of_the_notice_and_can_be_replaced_with_the_firebasr"
+            android:textColor="@color/textColor"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/noticeImage"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

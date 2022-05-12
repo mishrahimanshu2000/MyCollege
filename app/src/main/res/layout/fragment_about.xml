@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.About.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240sp"
+            android:scaleType="fitXY"
+            android:id="@+id/collegeImage"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_margin"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/textColor"
+            android:text="@string/text_RIT1"
+            android:textSize="@dimen/text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/text_margin"
+            android:paddingVertical="6dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                android:layout_marginStart="@dimen/text_margin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/international_students"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size2"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/text_margin"
+            android:paddingVertical="6dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                android:layout_marginStart="@dimen/text_margin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/talent_acquisition"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size2"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/text_margin"
+            android:paddingVertical="6dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                android:layout_marginStart="@dimen/text_margin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hostel"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size2"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/text_margin"
+            android:paddingVertical="6dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                android:layout_marginStart="@dimen/text_margin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sports"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size2"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/courses"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/title_size" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="420sp"
+            android:background="@color/gray3"
+            android:foregroundGravity="center"
+            android:layout_margin="@dimen/text_margin"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:elevation="4dp"
+            android:id="@+id/viewPager"/>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

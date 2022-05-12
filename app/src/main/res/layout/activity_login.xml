@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="18dp"
+        android:layout_gravity="center_vertical"
+        android:elevation="6dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:src="@drawable/rit_logo"
+            android:layout_marginTop="108dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_margin="16dp"
+            android:textSize="40sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#581D1D"
+            android:gravity="center"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox"
+            android:layout_margin="12dp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="16dp"
+            android:textSize="@dimen/text_size"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/loginPassword"
+            android:layout_height="48dp"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/text_size"/>
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/don_t_have_account"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_regular"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/register_here"
+                android:layout_marginStart="4dp"
+                android:id="@+id/register"
+                android:textSize="@dimen/title_size"
+                android:fontFamily="@font/poppins_bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

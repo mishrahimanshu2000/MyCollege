@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/branch_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:src="@drawable/ic_cse"
+                android:layout_marginEnd="@dimen/text_margin"/>
+            <TextView
+                android:id="@+id/branch_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_margin"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/courses"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/branch_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/textColor"
+            android:text="Branch Discription Will be here\nand it can be changed accordingly"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

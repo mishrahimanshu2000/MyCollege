@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My college</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/poppins_bold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/poppins_light</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/poppins_regular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="notice">Notice</string>
+    <string name="faculty">Faculty</string>
+    <string name="gallery">Gallery</string>
+    <string name="about">About</string>
+    <string name="e_books">E-Books</string>
+    <string name="theme">Theme</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="close">Close</string>
+    <string name="start">Start</string>
+    <string name="developer_information">Developer Information</string>
+    <string name="website">Website</string>
+    <string name="the_rit_tale">The RIT tale</string>
+    <string name="text_RIT1"><![CDATA[Over the years Roorkee Institute of Technology (RIT), Uttarakhand has become one of the best Institutes offering high end education in Technology ,Management & Agriculture courses. \nEstablished in 2005, RIT Roorkee is spread over 30 acres. It has an in-campus separate boys and girls hostel available. \nRIT Roorkee was recently awarded as the 1st position in Uttarakhand (Rating 4.5 stars) by Institutions Innovation Council, MHRD.\nRIT Roorkee was also recognised in the band “PROMISING” under the category “Colleges/Institutes (Private / Self Financed) (Technical)” in Atal Ranking of Institutions on Innovation Achievement(ARIIA) 2021.]]></string>
+    <string name="departments">Departments</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="electronics_and_communication">Electronics And Communication</string>
+    <string name="mechanical">Mechanical</string>
+    <string name="civil_engineering">Civil Engineering</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="_8th_km_dehradun_road_puhana_roorkee_247_667_dehradun_uttarakhand_india">8th Km Dehradun Road, Puhana Roorkee – 247 667 Dehradun, Uttarakhand (India)</string>
+    <string name="info_ritroorkee_in_ritroorkee_gmail_com">info@ritroorkee.in,\nritroorkee@gmail.com</string>
+    <string name="_91_1332_234036_38_91_1332_234035_91_9927099210_9927099219">+91-1332-234036-38\n +91-1332-234035 \n+91-9927099210, 9927099219</string>
+    <string name="rit_roorkee">RIT Roorkee</string>
+    <string name="delete">Delete</string>
+
+
+    <string name="no_data_found">No Data Found</string>
+    <string name="update_info">Update Info</string>
+    <string name="mechanical_engineering">Mechanical Engineering</string>
+    <string name="ece_ee">ECE/EE</string>
+    <string name="humanities">Humanities</string>
+    <string name="this_view_will_show_the_title_of_the_notice_and_can_be_replaced_with_the_firebasr">This view will show the title of the Notice and can be replaced with the firebasr</string>
+    <string name="admin_notice">Admin Notice</string>
+    <string name="technomax">Technomax</string>
+    <string name="convocation">Convocation</string>
+    <string name="orientation">Orientation</string>
+    <string name="sportstech">SportsTech</string>
+    <string name="other_events">Other Events</string>
+    <string name="international_students">International Students</string>
+    <string name="sports">Sports</string>
+    <string name="hostel">Hostel</string>
+    <string name="talent_acquisition">Talent Acquisition</string>
+    <string name="courses">Courses</string>
+    <string name="himanshu_mishra">Himanshu Mishra</string>
+    <string name="mishrahimanshu2000_gmail_com">mishrahimanshu2000@gmail.com</string>
+    <string name="_919118855553">+919118855553</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="don_t_have_account">Don\'t have Account?</string>
+    <string name="register_here">Register here</string>
+    <string name="login">Login</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="logout">Logout</string>
+    <string name="my_college">My College</string>
+
+    <string-array name="themes">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"/>
+    <item
+        android:title="@string/notice"
+        android:id="@+id/navigation_notice"
+        android:icon="@drawable/ic_notice"/>
+    <item
+        android:title="@string/faculty"
+        android:id="@+id/navigation_faculty"
+        android:icon="@drawable/ic_faculty"/>
+    <item
+        android:title="@string/gallery"
+        android:id="@+id/navigation_gallery"
+        android:icon="@drawable/ic_gallery"/>
+    <item
+        android:title="@string/about"
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_about"/>
+</menu>
